@@ -10,4 +10,4 @@ Data files "M4_valid_forec_monthly_1.RData", "M4_valid_forec_monthly_2.RData", "
 
 The file "Bayesian Mean Grid Search M4 Validation Set.R" finds the optimal hyperparameters of the Bayesian ensemble method using grid search in the validation set. Running the file "Bayesian Mean M4 Test Set.R" with the optimal hyperparameters will generate Bayesian ensemble forecasts in the test set, and calculate the average SMAPE, MASE and OWA of these forecasts. 
 
-The file "Heuristic Means.R" evaluates the accuracy of the trimmed means and metrically trimmed means in the test set. The optimal trimming levels for these two methods are obtained by grid search in the validation set.
+The file "Heuristic Means.R" evaluates the accuracy of the trimmed means and metrically trimmed means in the test set. The optimal trimming levels for these two methods are obtained by a grid search in the validation set.
